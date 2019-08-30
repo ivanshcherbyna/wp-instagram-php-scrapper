@@ -1,0 +1,104 @@
+#wpcontent{
+    background: linear-gradient(to bottom right, #FFF, #234172);
+}
+.plugin-admin-image{
+    max-width: 100%;
+    width: auto;
+    border-radius: 10px 70px 70px 10px;
+    box-shadow: 6px 0px 21px;
+}
+.input-text.form-control{
+    border-radius: 0px 10px 10px 0px;
+}
+.plugin-admin-panel{
+    text-align: center;
+}
+.plugin-head-title{
+    text-align: center;
+}
+.plugin-head-image{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+a.logo{
+    border-image-outset: unset;
+}
+input.input-text.form-control {
+    max-width: 350px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+}
+@media  (max-width:400px){
+    #chart_div>div>div, #chart_div2 >div>div{
+        max-width: 350px!important;
+    }
+}
+.divider{
+
+}
+/* progressbar */
+.softhardcap_wrap{
+    text-align: center;
+    color: #fffffc;
+}
+.progress-wrapp{
+    max-width: 50%;
+}
+.softhardcup{
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #534d6d;
+}
+.softhardcup_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.softhardcup::-webkit-progress-value {
+    background-image:
+            -webkit-linear-gradient(-45deg,
+            transparent 33%, rgba(0, 0, 0, .1) 33%,
+            rgba(0,0, 0, .1) 66%, transparent 66%),
+            -webkit-linear-gradient(top,
+            rgba(255, 255, 255, .25),
+            rgba(0, 0, 0, .25)),
+            -webkit-linear-gradient(left, #09c, #f44);
+    /*-webkit-linear-gradient(left, #8a8c8e, #534d6d);*/
+
+    border-radius: 12px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    -webkit-animation: animate-stripes 5s linear infinite;
+    animation: animate-stripes 5s linear infinite;
+}
+.softhardcup::-moz-progress-value {
+    background-image:
+            -moz-linear-gradient(-45deg,
+            transparent 33%, rgba(0, 0, 0, .1) 33%,
+            rgba(0,0, 0, .1) 66%, transparent 66%),
+            -moz-linear-gradient(top,
+            rgba(255, 255, 255, .25),
+            rgba(0, 0, 0, .25)),
+            -moz-linear-gradient(left, #09c, #f44);
+
+    border-radius: 12px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+    -moz-animation: animate-stripes 5s linear infinite;
+    animation: animate-stripes 5s linear infinite;
+}
+@-webkit-keyframes animate-stripes {
+    100% { background-position: -100px 0px; }
+}
+@-moz-keyframes animate-stripes {
+    100% { background-position: -100px 0px; }
+}
+
+@keyframes animate-stripes {
+    100% { background-position: -100px 0px; }
+}
