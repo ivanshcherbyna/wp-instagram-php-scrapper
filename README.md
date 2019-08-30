@@ -1,6 +1,6 @@
 # Wordpress Instagram Scraper plugin
 This library is based on the Instagram web version. We develop it because nowadays it is hard to get an approved Instagram application. The purpose is to support every feature that the web desktop and mobile version support. 
-<img src="https://github.com/ivanshcherbyna/wp-instagram-php-scrapper/blob/master/image.jpeg?raw=true" alt="wp-instagram-php-scrapper">
+<img style="border-radius: 50%;" src="https://github.com/ivanshcherbyna/wp-instagram-php-scrapper/blob/master/image.jpeg?raw=true" alt="wp-instagram-php-scrapper">
 
 ## Code Example for use in your template
 before use you need defined path and use 
